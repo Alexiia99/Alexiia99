@@ -7,9 +7,11 @@ Desarrolladora Android & Backend recién graduada en DAM, buscando mi primera op
 Me enfoco en desarrollo Android nativo con Kotlin y backend con Node.js. Durante mis estudios me especialicé en crear aplicaciones móviles completas, desde el diseño de la interfaz hasta la implementación del backend que las sostiene.
 
 Trabajo principalmente con:
-- **Android:** Kotlin, Jetpack Compose, MVVM, Room Database
-- **Backend:** Node.js, Express, MongoDB, APIs REST
-- **Frontend:** HTML5, CSS3, JavaScript para interfaces web
+Android: Kotlin, React Native, Xamarin, Android Studio
+Backend: Node.js, Java, APIs REST, operaciones CRUD
+Bases de datos: MySQL, PostgreSQL, MongoDB, Supabase, Firebase
+Herramientas: Git/GitHub, VSCode, Postman, Docker
+Frontend: HTML5, CSS3, JavaScript para interfaces web
 
 ## Experiencia práctica
 
