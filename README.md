@@ -36,9 +36,9 @@ The overlap between the two is where I like to live.
 ### 🌼 [Hansel](https://github.com/Alexiia99/Hansel)
 I want to find job offers that truly match my skills and not apply to every job I might be qualified for.
 I got tired of manually searching for jobs and writing cover letters. So I built a tool that does it.
-Local LLM + LangChain + RAG architecture. It finds relevant listings and drafts personalized emails.
-Does it perfectly? No. Does it work? Yes.
-`Python` `LangChain` `Ollama` `RAG` `Pydantic`
+Searches 3 Swiss job boards in parallel, ranks listings with a retrieve-and-rerank pipeline (embeddings + LLM reranker), and drafts personalized emails with a 3-layer hallucination defense. Runs 100% locally via Ollama. No paid APIs, no data leaving your machine.
+142 unit tests · Docker · FastAPI · Web UI with real-time streaming · 9 documented Architecture Decision Records
+Python LangChain Ollama RAG FastAPI Docker Pydantic
 
 ---
 
