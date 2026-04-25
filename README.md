@@ -1,74 +1,83 @@
-# 🌸 Hola, soy Alexia Herrador
+<!-- Header -->
+<h1 align="center">Hey, I'm Alexia 🌸</h1>
 
-Desarrolladora Android & Backend recién graduada en DAM, buscando mi primera oportunidad profesional.
+<p align="center">
+  Software Developer · AI & Data enthusiast · Building things people might actually need
+</p>
 
-## Mi especialización
-
-Me enfoco en desarrollo Android nativo con Kotlin y backend con Node.js. Durante mis estudios me especialicé en crear aplicaciones móviles completas, desde el diseño de la interfaz hasta la implementación del backend que las sostiene.
-
-Trabajo principalmente con:
-Android: Kotlin, React Native, Xamarin, Android Studio
-Backend: Node.js, Java, APIs REST, operaciones CRUD
-Bases de datos: MySQL, PostgreSQL, MongoDB, Supabase, Firebase
-Herramientas: Git/GitHub, VSCode, Postman, Docker
-Frontend: HTML5, CSS3, JavaScript para interfaces web
-
-## Experiencia práctica
-
-**Prácticas en METABOGACÍA (3 meses)**  
-Desarrollé aplicaciones móviles desde cero trabajando directamente con el equipo de desarrollo. Esta experiencia me enseñó sobre metodologías ágiles, control de versiones en equipo y la importancia de escribir código mantenible.
-
-**Proyecto Final: Legal Reply**  
-Sistema de automatización de respuestas telefónicas que integra Android, Node.js, MongoDB y WhatsApp Business API. El proyecto involucró arquitectura MVVM, manejo de webhooks en tiempo real e integración con servicios externos como Zadarma. Fue técnicamente desafiante y me permitió demostrar mis habilidades en desarrollo full-stack.
-
-## Lo que aporto
-
-Tengo una mentalidad orientada al detalle y me importa la calidad del código que escribo. Creo en documentar bien, seguir buenas prácticas y crear soluciones que sean escalables y mantenibles.
-
-Soy autodidacta por naturaleza - durante DAM complementé las clases aprendiendo tecnologías adicionales y explorando mejores formas de implementar soluciones. Esta curiosidad me ha permitido adaptarme rápidamente a nuevas herramientas y frameworks.
-
-Mi experiencia colaborando en equipo durante las prácticas me enseñó la importancia de la comunicación clara y el trabajo coordinado en proyectos de desarrollo.
-
-## Qué busco 🌺
-
-**Mi primera oportunidad profesional** como desarrolladora, donde pueda crecer y aportar valor desde el primer día.
-
-**Tipo de posición:**
-- Desarrolladora Android (junior/trainee)
-- Desarrolladora Backend (Node.js/JavaScript)
-- Full-stack con enfoque mobile
-- Posiciones híbridas Android + Backend
-
-**Entorno de trabajo ideal:**
-- Equipo colaborativo que valore el mentoring y el crecimiento profesional
-- Empresa que invierta en formación y desarrollo técnico de sus empleados
-- Cultura de código limpio, buenas prácticas y revisiones constructivas
-- Proyectos donde pueda aplicar y expandir mis conocimientos en Kotlin y Node.js
-
-**Lo que me motiva:**
-- Trabajar en productos que resuelvan problemas reales
-- Aprender de desarrolladores senior y contribuir al equipo
-- Participar en todo el ciclo de desarrollo, desde la planificación hasta el deployment
-- Crecer técnicamente en arquitecturas móviles y backend escalables
-
-**Modalidad de trabajo:**
-Abierta a remoto, híbrido o presencial en Alicante. Valoro la flexibilidad pero también la oportunidad de colaborar presencialmente con el equipo cuando sea beneficioso.
-
-**Disponibilidad:** Inmediata
-
-## Proyectos destacados
-
-🌺 **Legal Reply** - Automatización telefónica con Android + Node.js  
-🌼 **Weather App** - App del tiempo con Jetpack Compose y geolocalización  
-🌻 **Portfolio Web** - Mi showcase personal con tecnologías frontend  
-
-## Contacto
-
-📧 alexiahj111@gmail.com  
-💼 linkedin.com/in/alexia-herrador  
-🌐 alexiia99.github.io/Portfolio  
-📍 Alicante, España
+<p align="center">
+  <a href="https://linkedin.com/in/alexia-herrador-jimenez"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:alexiahj111@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+  <a href="https://alexiia99.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-8B3A8F?style=flat&logo=github&logoColor=white"/></a>
+</p>
 
 ---
 
-*Desarrolladora que combina solidez técnica con atención al detalle 🌸*
+I care a lot about building things that solve real problems — even if nobody's using them yet.
+Most of my projects started as "wait, why doesn't this exist?" moments.
+
+Right now I'm working as a developer by day and studying AI & Big Data by night.
+The overlap between the two is where I like to live.
+
+---
+
+## 🌸 What I'm working on
+
+**At work →** Building a natural language interface for internal databases — you ask a question in plain text, a fine-tuned local LLM (Ollama) figures out the SQL and answers you. No technical knowledge needed.
+
+**At school →** Specialization in AI & Big Data. Hadoop, Hive, Spark, data warehouses, ML pipelines... the kind of stuff that sounds boring until you realize it powers everything.
+
+**On my own →** Whatever I feel like building. Usually something that scratches an itch.
+
+---
+
+## 🌸 Projects I'm proud of
+
+### 🌼 [Hansel](https://github.com/Alexiia99/Hansel)
+I want to find job offers that truly match my skills and not apply to every job I might be qualified for.
+I got tired of manually searching for jobs and writing cover letters. So I built a tool that does it.
+Local LLM + LangChain + RAG architecture. It finds relevant listings and drafts personalized emails.
+Does it perfectly? No. Does it work? Yes.
+`Python` `LangChain` `Ollama` `RAG` `Pydantic`
+
+---
+
+### 🌼 [Employee Attrition Prediction](https://github.com/Alexiia99/Attrition-Prediction)
+ML system that predicts which employees are likely to leave — and more importantly, *what it costs the company* when they do.
+
+The part I'm most proud of: instead of just picking the model with the best accuracy, I built a cost-based threshold tuning system adapted to real Swiss IT market salaries. Because optimizing for recall ≠ optimizing for business value.
+
+7 algorithms compared · LDA won (ROC-AUC 0.857) · 3 business scenarios · ~82k CHF in potential savings
+`Python` `Scikit-learn` `Pandas` `Matplotlib`
+
+---
+
+### 🌼 METABOGACÍA App
+Full Android app built during my internship — automates legal communications via WhatsApp Business API and VoIP. Complete CRUD, cloud backend, automated bot.
+Real client. Real deadline. Real code.
+`Kotlin` `Node.js` `MongoDB` `WhatsApp API` `Firebase`
+
+---
+
+## 🌸 Tech I actually use
+
+```
+Mobile & Backend   →  Kotlin · Java · Node.js · REST APIs · PostgreSQL · MongoDB
+AI & ML            →  Python · Scikit-learn · TensorFlow · LangChain · Ollama · Pandas
+Big Data           →  Hadoop/HDFS · Hive · Spark · Kafka · HBase · Airflow
+Data Engineering   →  Data Warehouse · Dimensional Modelling · ETL · SQL (window functions)
+Tools              →  Git · Docker · Postman · Figma
+```
+
+---
+
+## 🌸 Let's talk
+
+If you're working on something interesting or just want to chat about AI, data, or why threshold tuning matters more than accuracy — I'm around.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexia_Herrador-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/alexia-herrador-jimenez)
+[![Email](https://img.shields.io/badge/alexiahj111@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:alexiahj111@gmail.com)
+
+---
+
+<p align="center"><i>"I don't just want to write code. I want to write code that matters."</i></p>
