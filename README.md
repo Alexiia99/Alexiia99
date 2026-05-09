@@ -33,12 +33,25 @@ The overlap between the two is where I like to live.
 
 ## 🌸 Projects I'm proud of
 
+### 🌼 [Swiss Salary Predictor](https://swisssalarypredictor.streamlit.app) — *live demo*
+I moved to Switzerland and had no idea what salary to ask for. So I built a tool that predicts it.
+
+End-to-end ML system trained on official Swiss government data (OFS/BFS SALARIUM). Give it a canton, sector, education level, and years of experience — it returns a predicted gross monthly salary with P10–P90 confidence interval and shows you where you stand in your canton.
+
+7 algorithms benchmarked · XGBoost + LightGBM · 5-fold CV · FastAPI + Streamlit deployed · CI/CD with GitHub Actions
+
+`Python` `XGBoost` `LightGBM` `Scikit-learn` `FastAPI` `Streamlit` `Docker` `GitHub Actions`
+
+---
+
 ### 🌼 [Hansel](https://github.com/Alexiia99/Hansel)
 I want to find job offers that truly match my skills and not apply to every job I might be qualified for.
 I got tired of manually searching for jobs and writing cover letters. So I built a tool that does it.
 Searches 3 Swiss job boards in parallel, ranks listings with a retrieve-and-rerank pipeline (embeddings + LLM reranker), and drafts personalized emails with a 3-layer hallucination defense. Runs 100% locally via Ollama. No paid APIs, no data leaving your machine.
+
 142 unit tests · Docker · FastAPI · Web UI with real-time streaming · 9 documented Architecture Decision Records
-Python LangChain Ollama RAG FastAPI Docker Pydantic
+
+`Python` `LangChain` `Ollama` `RAG` `FastAPI` `Docker` `Pydantic`
 
 ---
 
@@ -48,13 +61,24 @@ ML system that predicts which employees are likely to leave — and more importa
 The part I'm most proud of: instead of just picking the model with the best accuracy, I built a cost-based threshold tuning system adapted to real Swiss IT market salaries. Because optimizing for recall ≠ optimizing for business value.
 
 7 algorithms compared · LDA won (ROC-AUC 0.857) · 3 business scenarios · ~82k CHF in potential savings
+
 `Python` `Scikit-learn` `Pandas` `Matplotlib`
+
+---
+
+### 🌼 [Numo](https://github.com/Alexiia99/Numo)
+I wanted a finance app that didn't need my email, my cloud account, or my trust.
+
+Local-first Android expense tracker — no internet required, no account, no sync. Just you and your data on your phone. MVVM architecture, recurring payments with smart notifications, budget limits, and export to CSV/PDF when you actually need to share something.
+
+`Kotlin` `MVVM` `SQLite` `WorkManager` `Material Design` `Gradle`
 
 ---
 
 ### 🌼 METABOGACÍA App
 Full Android app built during my internship — automates legal communications via WhatsApp Business API and VoIP. Complete CRUD, cloud backend, automated bot.
 Real client. Real deadline. Real code.
+
 `Kotlin` `Node.js` `MongoDB` `WhatsApp API` `Firebase`
 
 ---
@@ -63,7 +87,7 @@ Real client. Real deadline. Real code.
 
 ```
 Mobile & Backend   →  Kotlin · Java · Node.js · REST APIs · PostgreSQL · MongoDB
-AI & ML            →  Python · Scikit-learn · TensorFlow · LangChain · Ollama · Pandas
+AI & ML            →  Python · PyTorch · Scikit-learn · TensorFlow · LangChain · Ollama · Pandas
 Big Data           →  Hadoop/HDFS · Hive · Spark · Kafka · HBase · Airflow
 Data Engineering   →  Data Warehouse · Dimensional Modelling · ETL · SQL (window functions)
 Tools              →  Git · Docker · Postman · Figma
